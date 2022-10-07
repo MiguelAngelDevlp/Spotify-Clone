@@ -1,0 +1,106 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+body {
+    margin: 0;
+    font-size: 15px;
+    font-family: arial;
+
+}
+
+img {
+    width: 100%;
+    
+}
+
+#img-logo {
+    width: 10%;
+    height: 10%;
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 10x;
+    position: fixed;
+    background-color: white;
+
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    text-decoration-style: none;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.Music-everyone {
+    background-image: url(../images/landing.jpg);
+    background-size: contain;
+    height: 900px;
+    z-index:-1;
+    display: flex;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 200%;
+    text-align: center;
+
+
+}
+main{
+    height: 90%;
+}
+
+.section-info{
+    justify-content: space-between;
+    align-items:center;
+    display: flex;
+    
+}
+
+.tittle {
+    justify-content: center;
+    margin-left: 45%;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    
+}
+.info-logos{
+justify-content: space-around;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.icons{
+    width: 40%;
+    
+}
+
+.Kanye {
+ background-image: url(../images/spotify-icon-white.png);
+ background-repeat: no-repeat;
+ background-color: forestgreen;
+
+}
+#titulo-foto{
+    
+}
